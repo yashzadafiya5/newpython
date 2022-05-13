@@ -1,8 +1,8 @@
 #7) write a prgoram to findout whether given year is milinium year or not.
-value=int(input("enter a rendom value"))
-value=year/100
+year=int(input("enter a year"))
+value=year%1000
 
 if  value==0:
-    print(value," is even number")
+    print(value,"this year is milinium year")
 else:
-    print(value,"is odd number")
+    print(value,"this year is not milinium year")

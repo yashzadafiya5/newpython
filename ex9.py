@@ -3,7 +3,7 @@
 '''
 number= int(input("enter your running blood sugar"))
  
-if number>=200 or:
+if number>=200:
     print("your blood sugar is high")
 else:
     print("your blood sugar is normal ")
